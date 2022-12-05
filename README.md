@@ -1,3 +1,3 @@
 # dotfiles-debian
 
-Dotfiles for my debian install.
+Dotfiles for my debian install with dwm.
