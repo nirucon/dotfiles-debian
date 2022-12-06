@@ -3,8 +3,8 @@
 #
 
 #default editor
-export EDITOR='nano'
-export VISUAL='nano'
+export EDITOR='lvim'
+export VISUAL='lvim'
 
 #colors
 export PS1="\[\033[38;5;186m\][\[$(tput sgr0)\]\u@\h \[$(tput sgr0)\]\[\033[38;5;4m\]\w\[$(tput sgr0)\]\[\033[38;5;186m\]]\[$(tput sgr0)\]\\$ \[$(tput sgr0)\]"
@@ -19,6 +19,7 @@ alias ls='ls -l'
 alias h='cd ~'
 alias nc='cd ~/Nextcloud'
 alias cal='ncal -M -b -w'
+alias vim='lvim'
 
 #ignore upnlow case tab
 bind "set completion-ignore-case on"
@@ -35,3 +36,6 @@ alias ytv-best="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+besta
 
 #sysinfo
 sysinfo
+
+#lunarvim lvim 
+export PATH="$HOME/.local/bin":$PATH
